@@ -18,7 +18,6 @@ photo = PhotoImage(data=img)
 label = Label(root, image=photo)
 label.place(x=10, y=10)
 
-label3 = Label(root, text="bhbop", font=("arial",25, "bold"), fg="black").place(x=40, y=40)
 label2 = Label(root, text="bop", font=("arial",25, "bold"), fg="black").place(x=100, y=262)
 
 move()
